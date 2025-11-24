@@ -10,7 +10,7 @@ import random
 import requests
 
 # ===== CONFIGURATION =====
-BOT_TOKEN = os.environ.get('BOT_TOKEN', '8100907659:AAFrLxc8kngIp7KzFMOvwj554awmxuTF05w')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 REMINDER_TIME = "09:00"
 
 # GitHub configuration - UPDATE THESE!
